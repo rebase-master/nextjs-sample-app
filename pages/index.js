@@ -16,40 +16,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
-          <div>
-              <Link href="/learn/angular"
-                    className={styles.card}
-                    rel="noopener noreferrer"
-              >
-                  <h2>
-                      Learn Angular
-                  </h2>
-              </Link>
-              <Link href="/learn/vue"
-                    className={styles.card}
-                    rel="noopener noreferrer"
-              >
-                  <h2>
-                      Learn Vue JS
-                  </h2>
-              </Link>
-              <Link href="/learn/react"
-                    className={styles.card}
-                    rel="noopener noreferrer"
-              >
-                  <h2>
-                      Learn React JS
-                  </h2>
-              </Link>
-              <Link href="/learn/next"
-                    className={styles.card}
-                    rel="noopener noreferrer"
-              >
-                  <h2>
-                      Learn Next JS
-                  </h2>
-              </Link>
-          </div>
+          <h1>Welcome to NextJS</h1>
       </main>
     </>
   );
